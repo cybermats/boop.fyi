@@ -1,0 +1,15 @@
+<footer>
+	{{ if and .Params.comments (gt (len .Site.DisqusShortname) 0) }}
+	<figure class="article-discussion">
+		{{ template "_internal/disqus.html" . }}
+	</figure>
+	{{ end }}
+	<span>
+		&copy; <time datetime="{{ now }}">{{ now.Format "2006" }}</time> {{ .Site.Author.name }}
+		|
+		<a href="https://github.com/cybermats">
+			<img src="/github.svg" target="_blank" rel="noopener noreferrer me"
+				style="display: inline; height: 1em; vertical-align: text-top;">
+		</a>
+	</span>
+</footer>

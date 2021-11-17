@@ -1,6 +1,3 @@
-[submodule "boop.fyi/themes/mini"]
-	path = themes/mini
-	url = https://github.com/nodejh/hugo-theme-mini.git
 [submodule "boop.fyi/themes/tale"]
 	path = themes/tale
 	url = https://github.com/EmielH/tale-hugo.git
