@@ -1,0 +1,19 @@
+baseURL = 'https://boop.fyi/'
+googleAnalytics = 'G-B06V4VRS7S'
+languageCode = 'en-us'
+sectionPagesMenu = "main"
+theme = 'tale'
+title = 'boop.fyi'
+[Author]
+name = "Mats Fredriksson"
+[menu]
+[[menu.main]]
+identifier = "about"
+name = "About"
+title = "About"
+url = "/about/"
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+title = "Posts"
+url = "/posts/"
