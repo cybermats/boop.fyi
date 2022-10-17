@@ -1,3 +1,6 @@
 [submodule "boop.fyi/themes/tale"]
 	path = themes/tale
 	url = https://github.com/EmielH/tale-hugo.git
+[submodule "themes/hugo-coder"]
+	path = themes/hugo-coder
+	url = https://github.com/luizdepra/hugo-coder.git

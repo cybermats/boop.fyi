@@ -1,8 +1,58 @@
 baseURL = 'https://boop.fyi/'
-googleAnalytics = 'G-B06V4VRS7S'
-languageCode = 'en-us'
-sectionPagesMenu = "main"
-theme = 'tale'
 title = 'boop.fyi'
-[Author]
-name = "boop.fyi"
+theme = 'hugo-coder'
+languageCode = 'en'
+pygmentsStyle = "bw"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+enableEmoji = true
+
+[params]
+author = "Mats Fredriksson"
+
+info = [ "Architect and Coder" ]
+keywords = "blog"
+since = 2022
+colorScheme = "auto"
+maxSeeAlsoItems = 5
+enableTwemoji = true
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+[[params.social]]
+name="Github"
+icon = "fa fa-github"
+weight = 1
+url = "https://github.com/cybermats"
+
+[[params.social]]
+name="Twitter"
+icon = "fa fa-twitter"
+weight = 3
+url = "https://twitter.com/smokequitter"
+
+[[params.social]]
+name="LinkedIn"
+icon = "fa fa-linkedin"
+weight = 3
+url = "https://www.linkedin.com/in/matsfredriksson/"
+
+
+[languages.en]
+languageName = ":us:"
+
+[[languages.en.menu.main]]
+ name = "About"
+ weight = 1
+ url = "about/"
+
+[[languages.en.menu.main]]
+ name = "Blog"
+ weight = 2
+ url = "posts/"
+
+
