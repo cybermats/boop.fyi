@@ -8,6 +8,6 @@ command = "chmod a+x build.sh && ./build.sh"
 directory = "./public"
 not_found_handling = "404-page"
 
-[routes]
+[[routes]]
 pattern = "boop.fyi"
 custom_domain = true
