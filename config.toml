@@ -10,7 +10,7 @@ enableEmoji = true
 [params]
 author = "Mats Fredriksson"
 
-info = [ "Architect and Coder" ]
+info = [ "Tinkerer and Coder" ]
 keywords = "blog"
 since = 2022
 colorScheme = "auto"
@@ -25,19 +25,19 @@ author = "authors"
 
 [[params.social]]
 name="Github"
-icon = "fa fa-github"
+icon = "fa-brands fa-github"
 weight = 1
 url = "https://github.com/cybermats"
 
 [[params.social]]
-name="Twitter"
-icon = "fa fa-twitter"
+name="Bluesky"
+icon = "fa-brands fa-bluesky"
 weight = 3
-url = "https://twitter.com/smokequitter"
+url = "https://bsky.app/profile/cybermats.bsky.social"
 
 [[params.social]]
 name="LinkedIn"
-icon = "fa fa-linkedin"
+icon = "fa-brands fa-linkedin"
 weight = 3
 url = "https://www.linkedin.com/in/matsfredriksson/"
 

@@ -7,7 +7,7 @@ slug = "about"
 aliases = ["about-us", "about-mats", "contact"]
 author = "Mats Fredriksson"
 +++
-I'm a coder, architect, tinkerer and doer who's been at it since I was
+I'm a coder, tinkerer and doer who's been at it since I was
 very young. Through the years I've been trying out a number of
 different things, both in terms of roles and in terms of industries.
 
