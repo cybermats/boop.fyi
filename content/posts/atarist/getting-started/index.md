@@ -79,4 +79,12 @@ The assembler that I will use in this series is [vasm](http://www.compilers.de/v
 
 Which text editor doesn't much matter. As Steven mentions on the post I linked, most modern text editors have support for syntax highlighting for assembler in general, and the 68000 in particular. Be that Visual Studio Code, Emacs, vim or Sublime Text.
 
+# Prerequisites #
+
+These tutorials assumes that you have a basic understanding of how
+CPUs work. For example, you know what a register is, how stacks works,
+and that we have different addressing modes. You are not expected to
+know anything about the 68000, or how the memory registers are laid
+out in the Atari ST. That's what we will explore together.
+
 With this we should be ready to start learning! Continued in the next post.
