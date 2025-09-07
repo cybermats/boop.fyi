@@ -1,5 +1,6 @@
 name = "boop-blog-worker"
 compatibility_date = "2025-09-03"
+enableRobotsTXT = true
 
 [build]
 command = "chmod a+x build.sh && ./build.sh"
