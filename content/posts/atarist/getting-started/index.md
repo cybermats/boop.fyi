@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2025-09-03T21:08:31+02:00
 title = "Getting started with Atari ST and 68000"
 description = "How to get started setting up a development environment for the Atari ST and the 68000 CPU"
@@ -64,20 +64,27 @@ Something about
 
 ## Emulators ##
 An alternative to hardware is to run an emulator. There are a few good
-ones, most notably is [Hatari](https://www.hatari-emu.org/). This
-will also make it faster to test out your cross compilated binaries,
-where you can easily set up a shared drive instead of copying the
-files to an SD card for transfer to a Atari ST machine.
+ones, most notably is [Hatari](https://www.hatari-emu.org/). This will
+also make it faster to test out your cross compilated binaries, where
+you can easily set up a shared drive instead of copying the files to
+an SD card for transfer to a Atari ST machine.
 
 # Development Environment #
 
 Now we have a full system to run our things on. Let's look at what's
-needed to start coding. The tutorial I have been following and which I here intend 
-to add to, is the blog by [Steven Tattersall](http://clarets.org/steve/tutorials/getting_started_with_st_coding.html). He lists emulators, assemblers and other tools.
+needed to start coding. The tutorial I have been following and which I
+here intend to add to, is the blog by [Steven
+Tattersall](http://clarets.org/steve/tutorials/getting_started_with_st_coding.html). He
+lists emulators, assemblers and other tools.
 
-The assembler that I will use in this series is [vasm](http://www.compilers.de/vasm.html), since I have positive experience from using it for the Z80. 
+The assembler that I will use in this series is
+[vasm](http://www.compilers.de/vasm.html), since I have positive
+experience from using it for the Z80.
 
-Which text editor doesn't much matter. As Steven mentions on the post I linked, most modern text editors have support for syntax highlighting for assembler in general, and the 68000 in particular. Be that Visual Studio Code, Emacs, vim or Sublime Text.
+Which text editor doesn't much matter. As Steven mentions on the post
+I linked, most modern text editors have support for syntax
+highlighting for assembler in general, and the 68000 in particular. Be
+that Visual Studio Code, Emacs, vim or Sublime Text.
 
 # Prerequisites #
 
@@ -87,4 +94,5 @@ and that we have different addressing modes. You are not expected to
 know anything about the 68000, or how the memory registers are laid
 out in the Atari ST. That's what we will explore together.
 
-With this we should be ready to start learning! Continued in the next post.
+With this we should be ready to start learning! Continued in the next
+post.

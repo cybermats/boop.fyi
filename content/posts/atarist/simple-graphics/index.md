@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2025-09-05T22:04:56+02:00
 title = "Simple Graphics"
 description = "A very simple, graphical program for the Atari ST"
