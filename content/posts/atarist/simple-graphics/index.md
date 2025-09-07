@@ -13,7 +13,7 @@ series = []
 
 Let's write a minimal assembly program which cycles the background color. 
 
-The code is available in a [git repo](https://github.com/cybermats/atarist-tutorial/tree/main/part01).
+The code is available in a [git repo](https://github.com/cybermats/atarist-tutorial/tree/main/simple-graphics/colors.s).
 
 
 
